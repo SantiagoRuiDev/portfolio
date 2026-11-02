@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { definePerson, defineWebSite } from '#imports'
+
 const colorMode = useColorMode()
 
 const color = computed(() => colorMode.value === 'dark' ? '#020618' : 'white')
@@ -18,9 +20,38 @@ useHead({
 })
 
 useSeoMeta({
-  titleTemplate: '%s - Nuxt Portfolio Template',
+  titleTemplate: '%s - Santiago Rui',
   twitterCard: 'summary_large_image'
 })
+
+useSchemaOrg([
+  defineWebSite({
+    name: 'Santiago Rui',
+    url: 'https://santiagorui.lat',
+    inLanguage: 'en'
+  }),
+  definePerson({
+    name: 'Santiago Rui',
+    jobTitle: 'Software Engineer',
+    url: 'https://santiagorui.lat',
+    image: 'https://avatars.githubusercontent.com/u/117700156?v=4',
+    email: 'santiagoruicontact@gmail.com',
+    sameAs: [
+      'https://github.com/SantiagoRuiDev',
+      'https://www.linkedin.com/in/santiago-rui/',
+      'https://x.com/santiagoruiar'
+    ],
+    worksFor: {
+      '@type': 'Organization',
+      'name': 'Althera',
+      'url': 'https://www.althera.com.ar'
+    }, knowsLanguage: ['Spanish', 'English', 'Italian'],
+    alumniOf: {
+      '@type': 'EducationalOrganization',
+      'name': 'UNICEN - Universidad Nacional del Centro de la Provincia de Buenos Aires'
+    }
+  })
+])
 
 const [{ data: navigation }, { data: files }] = await Promise.all([
   useAsyncData('navigation', () => {

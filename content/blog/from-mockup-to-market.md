@@ -1,160 +1,75 @@
 ---
-title: "From Mockup to Market: My End-to-End Product Design Process"
-description: A detailed breakdown of my iterative design methodology, from
-  initial research to final handoff, with practical tips for designers at every
-  stage.
-date: 2025-04-23
-image: https://images.pexels.com/photos/1050312/pexels-photo-1050312.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-minRead: 8
+title: "From Kickoff to Market: How I Build Software, Step by Step"
+description: A clear, jargon-free walkthrough of how I work with clients, from the
+  first discovery call to a launched product that keeps growing, with practical
+  advice for anyone hiring a software engineer.
+date: 2026-10-31
+image: https://i.imgur.com/LwudRpi.jpeg
+minRead: 5
 author:
-  name: Emma Thompson
+  name: Santiago Rui
   avatar:
-    src: https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: Emma Thompson
+    src: https://avatars.githubusercontent.com/u/117700156?v=4
+    alt: Santiago Rui
 ---
 
-Creating successful digital products isn't about following a rigid formula—it's about developing a flexible framework that adapts to the unique challenges of each project. After refining my approach across dozens of products, I've developed a process that consistently delivers results while leaving room for creativity and iteration.
+If you're not technical (maybe you're a recruiter, a founder, or a business owner), that's totally fine. This post was written for you.
 
-In this article, I'll walk through my end-to-end design process, from initial discovery to developer handoff, using my recent work on the EcoTrack application as a case study.
+I'll walk you through how I actually work with clients, step by step, without the buzzwords. By the end, you'll know exactly what happens in each phase, what you receive at every point, and why I never disappear after delivering a project.
 
-## Phase 1: Discovery & Research
+## Step 1: Discovery & research: getting to know you first
 
-Every great product starts with understanding the problem it's trying to solve. For EcoTrack, our challenge was creating an engaging way for users to track their environmental impact without feeling overwhelmed by guilt or complex data.
+Before writing a single line of code, I need to understand three things: what you want to achieve, what's holding you back today, and how I can genuinely help.
 
-### User Interviews
+We start with a conversation about your goals and the real problem behind the request, sometimes it's not "I need an app", but "I need to spend less time doing this task by hand". Then I take my own time to study your project: the situation, the market, and any existing work you already have.
 
-I began by conducting interviews with 12 potential users across different demographics, focusing on their current habits and attitudes toward sustainability. These conversations revealed a crucial insight: most people wanted to make environmentally friendly choices but felt paralyzed by the complexity of calculating their impact.
+**What you receive:** a clear proposal with a serious work plan and a formal offer. No vague estimates like "it depends": you'll know what I'm going to do, in what order, and what it costs.
 
-> "I care about the environment, but I have no idea if using a paper bag is actually better than plastic, or if my reusable water bottle makes any difference." — Interview participant
+## Step 2: Foundations & integration: starting on solid ground
 
-### Competitive Analysis
+This phase depends a lot on where you're at.
 
-Next, I analyzed existing sustainability apps, creating a feature comparison matrix to identify gaps and opportunities. Most competitors focused on carbon footprint calculations but failed to provide actionable guidance or positive reinforcement.
+**If you already have a project** (an active codebase or an existing prototype), I join it instead of fighting it. I analyze the current state, respect what's working, and reuse as much as possible so you don't pay twice for the same thing.
 
-### Defining Success
+**If we're starting from scratch**, I prepare everything before development begins: dashboards where you can follow the progress, clear goals, a simple meeting rhythm, and a shared "impact journey" so it's always obvious what's been done and what comes next.
 
-Before opening Figma, I collaborated with stakeholders to define clear success metrics:
+A big part of this phase is invisible but valuable: I set up AI agents (think of them as little digital assistants) and orchestrate them so repetitive work happens automatically. The result: fewer hours billed for boring tasks, more hours spent on what actually moves your project forward.
 
-- Increase daily active usage by 40%
-- Improve user-reported understanding of environmental impact
-- Drive measurable behavior changes in at least two sustainability categories
+## Step 3: Design, build & test: where the product takes shape
 
-## Phase 2: Ideation & Conceptualization
+By this point, we already know what kind of product we're building and the technologies to use. But I never leave that knowledge in my head: I document every important decision, including what we chose, why it fits, and what alternatives were rejected.
 
-With a solid understanding of the problem space, I moved into the creative phase of the process.
+Why should you care? Because in a year, anyone working on your product (including future me) will know exactly how and why it works. That saves you money and headaches.
 
-### Sketching
+Then we build. Working with an MVP mindset (that is, a Minimum Viable Product) means we focus on a real, usable first version that solves the core problem, instead of building for months without anything you can touch.
 
-I always start with pen and paper, rapidly exploring different approaches without the constraints of digital tools. For EcoTrack, I filled three sketchbooks with concepts ranging from gamified experiences to data-heavy dashboards.
+I use AI tools to keep quality high across every aspect of the product: code reviews, security checks, automated testing, and even SEO. And critically, we test with real users and we talk: getting feedback from your customers is part of the process, not an afterthought.
 
-### Information Architecture
+**What you receive:** a working product with its core features solved, documented, and tested with real people.
 
-Based on research insights, I developed a user-centered information architecture that prioritized simplicity and actionable information:
+## Step 4: Deploy & increments: launch day is the middle of the story
 
-1. **Dashboard** — Personalized overview with immediate impact insights
-2. **Daily Tracker** — Simple logging of activities with immediate feedback
-3. **Impact Journey** — Visualization of progress over time
-4. **Action Center** — Customized recommendations based on user behavior
+When the product is ready for real customers, we put it live in a hosting provider. It can be AWS, DigitalOcean or Azure, or something simpler and lighter like Hostinger for brand-new projects and early business validations.
 
-### Design Principles
+And here's where my philosophy gets strong: **software is built in increments, and launching is the middle of the story, not the end.**
 
-I established four core design principles to guide all decisions:
+I don't believe in a developer who delivers the MVP, collects the invoice, and completely walks away. In my view, that's not a serious partnership. It's a disservice. Here's why: as soon as the product touches real customers, it needs care: new features, small fixes, improvements you discover from usage. If the person who built it disappears (without documentation, guides or a monitoring system), you're left with a product only they could understand.
 
-- **Simplify complexity** — Translate environmental impact into understandable units
-- **Celebrate progress** — Focus on positive reinforcement rather than guilt
-- **Enable informed choices** — Provide context for decision-making
-- **Design for habit formation** — Create satisfying interaction loops
+So instead, I commit to what keeps your product alive and healthy:
 
-## Phase 3: Prototyping & Testing
+- **Documentation and technical guides**, so any developer can join and continue the work
+- **Reports and clear communication**, so you always know what's happening
+- A **monitoring setup**, so if anything breaks, you (and I) know about it immediately, usually before it affects customers
 
-With the conceptual framework in place, I moved into the iterative cycle of prototyping and testing.
+And here's the thing I find a bit ironic: with today's AI tools, things that used to take weeks, like documentation, tests and reports, take hours. It would be a true waste not to use them. That's exactly why I use them *so much*, which is precisely what makes staying with the project practical instead of something only "luxury budgets" can afford.
 
-### Low-Fidelity Wireframes
+## The short version
 
-I created wireframes focusing on user flows and information hierarchy, deliberately keeping the visual design minimal to focus feedback on functionality and structure.
+Here's my whole workflow in four plain sentences:
 
-### User Testing (Round 1)
+- I learn your goals first and give you a clear plan and offer.
+- I respect what exists and set up transparent, AI-assisted foundations.
+- I build a real, tested, documented product, not just a demo.
+- I launch it and keep improving it with you, with everything documented and monitored.
 
-Testing wireframes with 8 participants revealed several key insights:
-
-- Users wanted more immediate feedback when logging activities
-- The impact visualization wasn't intuitive for most users
-- People were confused by technical environmental terminology
-
-### Mid-Fidelity Prototypes
-
-Based on testing feedback, I refined the concept and developed interactive prototypes with more visual detail, focusing on:
-
-- Simplified data visualization using familiar metaphors
-- Immediate positive reinforcement for logged activities
-- Progressive disclosure of more complex environmental information
-
-### User Testing (Round 2)
-
-A second round of testing showed significant improvements in usability, but highlighted new challenges:
-
-- Users wanted to compare their impact with friends or community averages
-- Weekly summaries were more motivating than daily statistics
-- The onboarding process felt too lengthy
-
-## Phase 4: Visual Design & Refinement
-
-With the core experience validated, I moved into high-fidelity visual design.
-
-### Visual Language
-
-I developed a visual language that balanced approachability with credibility:
-
-- A nature-inspired color palette with clear functional color coding
-- Custom iconography that simplified complex concepts
-- Typography that prioritized readability across devices
-- Micro-interactions that provided satisfaction and reinforcement
-
-### Design System
-
-To ensure consistency and facilitate development, I created a comprehensive design system including:
-
-- Component library with documented states and behaviors
-- Responsive layout guidelines
-- Animation specifications
-- Accessibility standards
-
-### Final Prototype
-
-The final prototype brought together all elements into a cohesive experience, which we tested with a broader user group before moving to development.
-
-## Phase 5: Implementation & Iteration
-
-The design process doesn't end when development begins—it evolves.
-
-### Developer Collaboration
-
-I worked closely with developers throughout implementation, participating in code reviews and adjusting designs to address technical constraints while preserving the core experience.
-
-### Analytics Implementation
-
-We integrated analytics to track our success metrics, setting up dashboards to monitor key interactions and user journeys.
-
-### Post-Launch Iteration
-
-After launch, we established a regular cycle of analysis and iteration:
-
-- Weekly reviews of user feedback and behavior data
-- Bi-weekly design sprints to address emerging issues
-- Monthly feature planning based on usage patterns
-
-## Results & Learnings
-
-Six months after launch, EcoTrack has exceeded our initial success metrics:
-
-- 52% increase in daily active usage
-- 78% of users report better understanding of their environmental impact
-- Average user has adopted 3.4 new sustainable habits
-
-The most valuable lesson from this project was the importance of making abstract concepts tangible. By translating complex environmental data into personal, actionable insights, we created an experience that not only educated users but empowered them to make meaningful changes.
-
-## Conclusion
-
-Effective product design is never a linear journey—it's a continuous cycle of learning and refinement. By staying focused on user needs while maintaining a flexible approach to problem-solving, we can create products that not only meet business objectives but genuinely improve people's lives.
-
-I'd love to hear about your own design process and how you approach similar challenges. Feel free to reach out with questions or share your experiences in the comments below.
+If you're evaluating engineers for a project, or if you're an engineer and this resonates with you, I'd love to hear from you. You can reach me through any of the links below, or check out some of my [projects](/projects) to see this process in action.

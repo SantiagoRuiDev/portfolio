@@ -123,8 +123,29 @@ export default defineContentConfig({
       type: 'page',
       source: 'about.yml',
       schema: z.object({
-        content: z.object({}),
-        images: z.array(createImageSchema())
+        buttons: z.array(createButtonSchema()),
+        intro: z.array(z.string()),
+        sections: z.array(z.object({
+          heading: z.string(),
+          paragraphs: z.array(z.string())
+        })),
+        images: z.array(createImageSchema()),
+        techStack: z.array(z.object({
+          name: z.string(),
+          icon: z.string(),
+          color: z.string().optional()
+        })),
+        info: z.array(z.object({
+          label: z.string(),
+          value: z.string(),
+          icon: z.string()
+        })),
+        githubCard: z.object({
+          title: z.string(),
+          description: z.string(),
+          label: z.string(),
+          to: z.string()
+        })
       })
     })
   }

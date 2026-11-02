@@ -1,3 +1,5 @@
+publicHoistPattern:
+  - '*'
 allowBuilds:
   sharp: true
   '@parcel/watcher': false

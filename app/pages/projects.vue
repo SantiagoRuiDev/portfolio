@@ -48,7 +48,8 @@ defineOgImage('Portfolio', { title, description })
         >
           <UButton
             :label="page.links[0]?.label"
-            :to="global.meetingLink"
+            to="https://www.linkedin.com/in/santiago-rui/"
+            target="_blank"
             v-bind="page.links[0]"
           />
           <UButton

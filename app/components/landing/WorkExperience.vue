@@ -43,7 +43,10 @@ defineProps<{
               :style="{ color: experience.company.color }"
             >
               <span class="font-medium">{{ experience.company.name }}</span>
-              <UIcon :name="experience.company.logo" />
+              <UIcon
+                :name="experience.company.logo"
+                :mode="'svg'"
+              />
             </div>
           </ULink>
         </Motion>

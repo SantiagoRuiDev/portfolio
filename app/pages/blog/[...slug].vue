@@ -24,6 +24,23 @@ useSeoMeta({
   ogTitle: title
 })
 
+const { image } = page.value
+
+useSchemaOrg([
+  defineArticle({
+    headline: title,
+    description,
+    ...(page.value.date ? { datePublished: page.value.date } : {}),
+    ...(image ? { image } : {})
+  }),
+  defineBreadcrumb({
+    breadcrumbList: [
+      { name: 'Blog', item: 'https://santiagorui.lat/blog' },
+      { name: page.value.title, item: `https://santiagorui.lat${routePath.value}` }
+    ]
+  })
+])
+
 if (page.value.image) {
   useSeoMeta({ ogImage: page.value.image })
 } else {
