@@ -9,7 +9,7 @@ minRead: 5
 author:
   name: Santiago Rui
   avatar:
-    src: https://avatars.githubusercontent.com/u/117700156?v=4
+    src: https://i.imgur.com/KHy1XVt.png
     alt: Santiago Rui
 ---
 

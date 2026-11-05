@@ -32,6 +32,16 @@ export default defineNuxtConfig({
     }
   },
 
+  // Remote images used in blog posts and avatars (NuxtImg)
+  image: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'i.imgur.com'
+      }
+    ]
+  },
+
   routeRules: {
     // Hidden (not deleted) for now: redirect any direct visits to the homepage.
     // Remove this rule to bring the page back once it's needed again.

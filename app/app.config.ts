@@ -1,8 +1,8 @@
 export default defineAppConfig({
   global: {
     picture: {
-      dark: 'https://avatars.githubusercontent.com/u/117700156?v=4',
-      light: 'https://avatars.githubusercontent.com/u/117700156?v=4',
+      dark: 'https://i.imgur.com/KHy1XVt.png',
+      light: 'https://i.imgur.com/KHy1XVt.png',
       alt: 'Santiago Rui'
     },
     email: 'santiagoruicontact@gmail.com',
