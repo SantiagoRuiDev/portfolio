@@ -34,6 +34,9 @@ export default defineNuxtConfig({
 
   // Remote images used in blog posts and avatars (NuxtImg)
   image: {
+    // `domains` is required for Netlify Image CDN: at build time Nuxt Image
+    // uses it to generate `remote_images` in the Netlify deploy config.
+    domains: ['i.imgur.com'],
     remotePatterns: [
       {
         protocol: 'https',

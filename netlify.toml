@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build-only"
+  publish = "dist"
+
+# Netlify Image CDN: allow remote images served through NuxtImg in production.
+# Without this, requests to /.netlify/images return
+# "url (...) is not an allowed pattern".
+[images]
+  remote_images = ["https://i.imgur.com/.*"]
